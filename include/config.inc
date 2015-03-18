@@ -1,0 +1,29 @@
+<?php
+$config=array(
+	'chatListen'=>array(
+		array(
+			'host'=>'127.0.0.1',
+			'port'=>10000
+		),
+		array(
+			'host'=>'127.0.0.1',
+			'port'=>10001
+		),
+		array(
+			'host'=>'127.0.0.2',
+			'port'=>10000
+		),
+		array(
+			'host'=>'127.0.0.2',
+			'port'=>10001
+		)
+    ),
+	'myDB'=>array(
+		'host'=>'127.0.0.1',
+		'port'=>3308,
+		'db'=>'somedb',
+		'user'=>'someuser',
+		'password'=>'somepwd'
+	)
+);
+?>
